@@ -1,0 +1,1256 @@
+/* Главные настройки по сайту */
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Размер экрана с 350px по 459px */
+@media (min-device-width:350px) and (max-device-width:459px){
+    /* Настрока на хедер сайта */
+    header{
+        height: 190vh;
+        width:130%;
+        background-image: url('../img/background.jpeg');
+        font-family: 'Istok Web', sans-serif;
+        color:#FFFFFF;
+    }
+
+    .logo1{
+        margin-top: 27px;
+        margin-left: 32px;
+        width: 47px;
+        height: 53px;
+        cursor: pointer;
+        margin-bottom: 110px;    
+    }
+
+    .logo2{
+        width:50%
+    }
+
+    .menu{
+        display: none;
+        background: #070606;
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 50px;
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        font-size: 60px;
+    }
+
+    .header_label1{
+        margin-top: 190px;
+    }
+
+    #x{
+        float: right;
+        position: relative;
+        top:-20px;
+        right:25px;
+    }
+
+    #bars{
+        float:right;
+        margin-top: 35px;
+        margin-right: 25px;
+        font-size: 30px;
+    }
+
+    .menu a{
+        color: #FFFFFF;
+        padding: 0;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: 100.91px;
+    }
+
+    img{
+        width:60%;
+        margin: 0;
+    }
+
+    .header_ad{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .content_logo_full{
+        margin-top: 5px;
+    }
+
+    .smartphone{
+        padding-top: 15%;
+        padding-left: 40px;
+    }
+
+    .cabel_smartphone{
+        opacity: 0;
+    }
+
+     /* Главная часть сайта */
+
+     .music{
+        background:  linear-gradient(400deg,#D53005 100%, rgba(0, 0, 0, 0) 100%);
+        height: 120vh;
+        width:130%;
+        font-family: 'Karla', sans-serif;
+        color:#FFFFFF;
+        border: none;
+        padding-top:83px;
+    }
+
+    .title_music{
+        font-weight: 200;
+        font-size:30px;
+        line-height: 35.07px;
+        margin-left: 32px;
+    }
+
+    .vinyl_record{
+        height:666.5px;
+        margin-left: 1%;
+        width:99%;
+    }
+
+    .blocks_text{
+        font-weight: 600;
+        font-size:20px;
+        line-height: 46.76px;
+        margin-top: 203px;
+        margin-left: 45px;
+    }
+    .block_main{
+        width:230px;
+        height:53px;
+        background: linear-gradient(0.3turn,#B13E18 50%,#F3501A 105%);
+        border: 1px solid #000000;
+        margin-top: 11px;
+        margin-left: 20%;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        box-shadow: 4px 4px #252424b0;
+    }
+
+    /* Раздел About */
+
+    .about{
+        background: linear-gradient(#D53005 0.5%, #000000 6%);
+        height: 524px;
+        color:#FFFFFF;
+        font-size: 30px;
+        padding-top: 10%;
+        padding-left: 5%;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        line-height: 35.07px;
+        width:125%;
+        border: none;
+        text-align: left;
+    }
+    
+    .content_about{
+        width: 230px;
+        height: 32px;
+        margin-top: 76px;
+        margin-left: 75px;
+    }
+
+    /* Раздел Store */
+
+    .store{
+        background-color: #D53005;
+        color:#FFFFFF;
+        padding-top: 33px;
+        width:114%;
+        height: 1050px;
+        padding-left: 2%;
+        padding-right: 15%;
+        padding-bottom: 40%;
+    }
+
+    .title_store{
+        font-family: 'Karla', sans-serif;
+        font-size: 30px;
+        line-height: 35.07px;
+        font-weight: 600;
+        width: 100px;
+    }
+    
+    .MPlayer_content p{
+        width: 300px;
+    }
+
+    .content_store{
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 1%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+
+    }
+    
+    button{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        height: 60px;
+        width: 240px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 3px 4px #5e5e5e79;
+        display: flex;
+        padding: 15px 25px;
+        margin-top: 23%;
+        margin-left: 30%;
+    }
+
+    .download_windows{
+        height: 80px;
+        color: #FFFFFF;
+        background-color: #020202E5;
+    }
+
+    .download_macos{
+        height: 80px;
+        color: #000000B2;
+        background-color: #E3E3E3;
+        margin-top: 50px;
+    }
+
+    .MPlayer_content{
+        margin-top: 110px;
+        color:#FFFFFF;
+        font-weight: 600;
+        width: 431px;
+        height: 110px;
+    }
+
+    .MPlayer_content h2{
+        width:450px;
+        height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .MPlayer_content p{
+        padding-top: 20px;
+    }
+
+    .MPlayer_content a{
+        display: block;
+        color:#040404CC;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    b{
+        font-weight: 800;
+    }
+
+    .macbook{
+        margin-top: 40%;
+        margin-left: 3%;
+        width:100%;
+    }
+
+    /* Футер сайта*/
+
+    footer{
+        background: linear-gradient( #D53005 2%,#000000 7%);
+        padding-top:120px;
+        padding-left: 3%;
+        padding-bottom: 22px;
+        color:#FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width:127.99%;
+    }
+
+    ul{
+        list-style: none;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .footer_block_list1 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list2 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list3 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    .logo3{
+        width:10%;
+    }
+}
+
+/* Размер экрана с 460px по 1000px*/
+@media (min-device-width:460px) and (max-device-width:1000px){
+    /* Настрока на хедер сайта */
+    header{
+        height: 190vh;
+        width:100%;
+        background-image: url('../img/background.jpeg');
+        font-family: 'Istok Web', sans-serif;
+        color:#FFFFFF;
+    }
+
+    .logo1{
+        margin-top: 27px;
+        margin-left: 32px;
+        width: 47px;
+        height: 53px;
+        cursor: pointer;
+        margin-bottom: 110px;    
+    }
+
+    .logo2{
+        width:50%
+    }
+
+    .menu{
+        display: none;
+        background: #070606;
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 50px;
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        font-size: 60px;
+    }
+
+    .header_label1{
+        margin-top: 190px;
+    }
+
+    #x{
+        float: right;
+        position: relative;
+        top:-20px;
+        right:25px;
+    }
+
+    #bars{
+        float:right;
+        margin-top: 35px;
+        margin-right: 25px;
+        font-size: 30px;
+    }
+
+    .menu a{
+        color: #FFFFFF;
+        padding: 0;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: 100.91px;
+    }
+
+    img{
+        width:60%;
+        margin: 0;
+    }
+
+    .header_ad{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .content_logo_full{
+        margin-top: 5px;
+    }
+
+    .smartphone{
+        padding-top: 15%;
+        padding-left: 40px;
+    }
+
+    .cabel_smartphone{
+        opacity: 0;
+    }
+
+     /* Главная часть сайта */
+
+     .music{
+        background:  linear-gradient(400deg,#D53005 100%, rgba(0, 0, 0, 0) 100%);
+        height: 120vh;
+        width:100%;
+        font-family: 'Karla', sans-serif;
+        color:#FFFFFF;
+        border: none;
+        padding-top:83px;
+    }
+
+    .title_music{
+        font-weight: 200;
+        font-size:30px;
+        line-height: 35.07px;
+        margin-left: 32px;
+    }
+
+    .vinyl_record{
+        height:666.5px;
+        margin-left: 1%;
+        width:99%;
+    }
+
+    .blocks_text{
+        font-weight: 600;
+        font-size:20px;
+        line-height: 46.76px;
+        margin-top: 203px;
+        margin-left: 45px;
+    }
+    .block_main{
+        width:230px;
+        height:53px;
+        background: linear-gradient(0.3turn,#B13E18 50%,#F3501A 105%);
+        border: 1px solid #000000;
+        margin-top: 11px;
+        margin-left: 20%;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        box-shadow: 4px 4px #252424b0;
+    }
+
+    /* Раздел About */
+
+    .about{
+        background: linear-gradient(#D53005 0.5%, #000000 6%);
+        height: 524px;
+        color:#FFFFFF;
+        font-size: 30px;
+        padding-top: 10%;
+        padding-left: 5%;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        line-height: 35.07px;
+        width:95%;
+        border: none;
+        text-align: left;
+    }
+    
+    .content_about{
+        width: 230px;
+        height: 32px;
+        margin-top: 76px;
+        margin-left: 75px;
+    }
+
+    /* Раздел Store */
+
+    .store{
+        background-color: #D53005;
+        color:#FFFFFF;
+        padding-top: 33px;
+        width:83%;
+        height: 1050px;
+        padding-left: 2%;
+        padding-right: 15%;
+        padding-bottom: 40%;
+    }
+
+    .title_store{
+        font-family: 'Karla', sans-serif;
+        font-size: 30px;
+        line-height: 35.07px;
+        font-weight: 600;
+        width: 100px;
+    }
+    
+    .MPlayer_content p{
+        width: 300px;
+    }
+
+    .content_store{
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 1%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+
+    }
+    
+    button{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        height: 60px;
+        width: 240px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 3px 4px #5e5e5e79;
+        display: flex;
+        padding: 15px 25px;
+        margin-top: 23%;
+        margin-left: 30%;
+    }
+
+    .download_windows{
+        height: 80px;
+        color: #FFFFFF;
+        background-color: #020202E5;
+    }
+
+    .download_macos{
+        height: 80px;
+        color: #000000B2;
+        background-color: #E3E3E3;
+        margin-top: 50px;
+    }
+
+    .MPlayer_content{
+        margin-top: 110px;
+        color:#FFFFFF;
+        font-weight: 600;
+        width: 431px;
+        height: 110px;
+    }
+
+    .MPlayer_content h2{
+        width:450px;
+        height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .MPlayer_content p{
+        padding-top: 20px;
+    }
+
+    .MPlayer_content a{
+        display: block;
+        color:#040404CC;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    b{
+        font-weight: 800;
+    }
+
+    .macbook{
+        margin-top: 40%;
+        margin-left: 18%;
+        width:100%;
+    }
+
+    /* Футер сайта*/
+
+    footer{
+        background: linear-gradient( #D53005 2%,#000000 7%);
+        padding-top:120px;
+        padding-left: 3%;
+        padding-bottom: 22px;
+        color:#FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width:97%;
+    }
+
+    ul{
+        list-style: none;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .footer_block_list1 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list2 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list3 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    .logo3{
+        width:10%;
+    }
+}
+
+/* Размер экрана с 1101px */
+@media (min-device-width:1001px) and (max-device-width:1919px){
+    /* Настрока на хедер сайта */
+    header{
+        height: 300vh;
+        width:100%;
+        background-image: url('../img/background.jpeg');
+        font-family: 'Istok Web', sans-serif;
+        color:#FFFFFF;
+    }
+
+    .logo1{
+        margin-top: 27px;
+        margin-left: 32px;
+        width: 47px;
+        height: 53px;
+        cursor: pointer;
+        margin-bottom: 110px;    
+    }
+
+    .logo2{
+        width:50%
+    }
+
+    .menu{
+        display: none;
+        background: #070606;
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 50px;
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        font-size: 60px;
+    }
+
+    .header_label1{
+        margin-top: 190px;
+    }
+
+    #x{
+        float: right;
+        position: relative;
+        top:-20px;
+        right:25px;
+    }
+
+    #bars{
+        float:right;
+        margin-top: 35px;
+        margin-right: 25px;
+        font-size: 30px;
+    }
+
+    .menu a{
+        color: #FFFFFF;
+        padding: 0;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: 100.91px;
+    }
+
+    img{
+        width:60%;
+        margin: 0;
+    }
+
+    .header_ad{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .content_logo_full{
+        margin-top: 5px;
+    }
+
+    .smartphone{
+        padding-top: 15%;
+        padding-left: 40px;
+    }
+
+    .cabel_smartphone{
+        opacity: 0;
+    }
+
+     /* Главная часть сайта */
+
+     .music{
+        background:  linear-gradient(400deg,#D53005 100%, rgba(0, 0, 0, 0) 100%);
+        height: 120vh;
+        width:100%;
+        font-family: 'Karla', sans-serif;
+        color:#FFFFFF;
+        border: none;
+        padding-top:83px;
+    }
+
+    .title_music{
+        font-weight: 200;
+        font-size:30px;
+        line-height: 35.07px;
+        margin-left: 32px;
+    }
+
+    .vinyl_record{
+        height:666.5px;
+        margin-left: 1%;
+        width:99%;
+    }
+
+    .blocks_text{
+        font-weight: 600;
+        font-size:20px;
+        line-height: 46.76px;
+        margin-top: 203px;
+        margin-left: 45px;
+    }
+    .block_main{
+        width:230px;
+        height:53px;
+        background: linear-gradient(0.3turn,#B13E18 50%,#F3501A 105%);
+        border: 1px solid #000000;
+        margin-top: 11px;
+        margin-left: 20%;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 5px;
+        box-shadow: 4px 4px #252424b0;
+    }
+
+    /* Раздел About */
+
+    .about{
+        background: linear-gradient(#D53005 0.5%, #000000 6%);
+        height: 524px;
+        color:#FFFFFF;
+        font-size: 30px;
+        padding-top: 10%;
+        padding-left: 5%;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        line-height: 35.07px;
+        width:95%;
+        border: none;
+        text-align: left;
+    }
+    
+    .content_about{
+        width: 230px;
+        height: 32px;
+        margin-top: 76px;
+        margin-left: 75px;
+    }
+
+    /* Раздел Store */
+
+    .store{
+        background-color: #D53005;
+        color:#FFFFFF;
+        padding-top: 33px;
+        width:83%;
+        height: 2100px;
+        padding-left: 2%;
+        padding-right: 15%;
+        padding-bottom: 40%;
+    }
+
+    .title_store{
+        font-family: 'Karla', sans-serif;
+        font-size: 30px;
+        line-height: 35.07px;
+        font-weight: 600;
+        width: 100px;
+    }
+    
+    .MPlayer_content p{
+        width: 300px;
+    }
+
+    .content_store{
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 1%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+
+    }
+    
+    button{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        height: 60px;
+        width: 240px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 3px 4px #5e5e5e79;
+        display: flex;
+        padding: 15px 25px;
+        margin-top: 23%;
+        margin-left: 30%;
+    }
+
+    .download_windows{
+        height: 80px;
+        color: #FFFFFF;
+        background-color: #020202E5;
+    }
+
+    .download_macos{
+        height: 80px;
+        color: #000000B2;
+        background-color: #E3E3E3;
+        margin-top: 50px;
+    }
+
+    .MPlayer_content{
+        margin-top: 110px;
+        color:#FFFFFF;
+        font-weight: 600;
+        width: 431px;
+        height: 110px;
+    }
+
+    .MPlayer_content h2{
+        width:450px;
+        height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .MPlayer_content p{
+        padding-top: 20px;
+    }
+
+    .MPlayer_content a{
+        display: block;
+        color:#040404CC;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    b{
+        font-weight: 800;
+    }
+
+    .macbook{
+        margin-top: 40%;
+        margin-left: 18%;
+        width:100%;
+    }
+
+    /* Футер сайта*/
+
+    footer{
+        background: linear-gradient( #D53005 2%,#000000 7%);
+        padding-top:120px;
+        padding-left: 3%;
+        padding-bottom: 22px;
+        color:#FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        width:97%;
+    }
+
+    ul{
+        list-style: none;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .footer_block_list1 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list2 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+
+    .footer_block_list3 a{
+        color:#FFFFFF;
+        text-decoration: none;
+    }
+    .logo3{
+        width:10%;
+    }
+}
+
+/* Размер экрана с 1920px */
+@media (min-device-width:1920px){
+    /* Настрока на хедер сайта */
+    header{
+        height: 1105px;
+        width:100%;
+        background-image: url('../img/background.jpeg');
+        font-family: 'Istok Web', sans-serif;
+    }
+
+    #bars{
+        display: none;
+    }
+
+    #x{
+        display: none;
+    }
+
+    .menu, a{
+        color: #FFFFFF;
+        display: inline;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        font-weight: 400;
+        line-height: 25.91px;
+        margin-left: 100px;
+    }
+
+    .logo1{
+        margin-top: 47px;
+        margin-left: 122px;
+        width: 47px;
+        height: 53px;
+        cursor: pointer;
+        position: relative;
+        right:1500px;
+    }
+
+    .header_label1{
+        display: inline;
+        position: relative;
+        top:-17px;
+        font-size: 18px;
+        margin-left: 365px;
+    }
+
+    .header_label2{
+        display: inline;
+        position: relative;
+        top:-17px;
+        font-size: 18px;
+        margin-left: 153px;
+    }
+
+    .header_label3{
+        display: inline;
+        position: relative;
+        top:-17px;
+        font-size: 18px;
+        margin-left: 156px;
+    }
+
+    .header_label4{
+        display: inline;
+        position: relative;
+        top:-17px;
+        font-size: 18px;
+        margin-left: 161px;
+    }
+
+    .header_ad{
+        color:#FFFFFF;
+    }
+
+    .logo2{
+        width: 412px;
+        height: 264px;
+        margin-left: 115px;
+        margin-top: 244px;
+    }
+
+    .content_logo_full{
+        font-size: 20px;
+        width:290px;
+        height: 63px;
+        margin-left: 122px;
+        position: relative;
+        top:220px;
+        font-weight: 400;
+        line-height: 28.79px;
+    }
+
+    .full_smartphone{
+        float: right;
+        position: relative;
+        right:250px;
+        bottom: 470px;
+    }
+
+    .smartphone{
+        position: relative;
+        left:460px
+    }
+
+    /* Главная часть сайта */
+
+
+    /* Раздел Music */
+    .music{
+        background:  linear-gradient(400deg,#D53005 100%, rgba(0, 0, 0, 0) 100%);
+        height: 1024px;
+        font-family: 'Karla', sans-serif;
+        color:#FFFFFF;
+        border: none;
+    }
+
+    .title_music{
+        font-weight: 600;
+        font-size:30px;
+        line-height: 35.07px;
+        margin-left: 122px;
+        position: relative;
+        top:83px;
+    }
+
+    .vinyl_record{
+        height:666.5px;
+        padding: 0;
+        position: relative;
+        top: -510px;
+        left:905px;
+    }
+
+    .blocks_text{
+        font-weight: 600;
+        font-size:40px;
+        line-height: 46.76px;
+        margin-top: 303px;
+        margin-left: 115px;
+    }
+
+    .block_main{
+        width:382px;
+        height:83px;
+        background: linear-gradient(0.3turn,#B13E18 50%,#F3501A 105%);
+        border: 1px solid #000000;
+        margin-top: 101px;
+        margin-left: 300px;
+        text-align: center;
+        padding-top: 25px;
+        box-shadow: 4px 4px #252424b0;
+    }
+
+    /* Раздел About */
+
+    .about{
+        background: linear-gradient(#D53005 0.5%, #000000 6%);
+        height: 1024px;
+        color:#FFFFFF;
+        font-size: 30px;
+        padding-top: 83px;
+        padding-left: 122px;
+        font-family: 'Karla', sans-serif;
+        font-weight: 600;
+        line-height: 35.07px;
+    }
+
+    .content_about{
+        text-align: center;
+        width: 969px;
+        height: 72px;
+        margin-top: 476px;
+        margin-left: 275px;
+    }
+
+    /* Раздел Store */
+
+    .store{
+        background-color: #D53005;
+        color:#FFFFFF;
+        padding-top: 83px;
+        width: 100%;
+        height: 1050px;
+    }
+
+    .title_store{
+        font-family: 'Karla', sans-serif;
+        font-size: 30px;
+        line-height: 35.07px;
+        font-weight: 600;
+        margin-left:62px;
+    }
+
+    .content_store{
+        margin-top: 254px;
+        margin-left: 110px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    button{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        height: 60px;
+        width: 240px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 3px 4px #5e5e5e79;
+        display: flex;
+        padding: 15px 50px;
+    }
+
+    .download_windows{
+        height: 80px;
+        color: #FFFFFF;
+        background-color: #020202E5;
+    }
+
+    .download_macos{
+        height: 80px;
+        color: #000000B2;
+        background-color: #E3E3E3;
+        margin-top: 50px;
+    }
+
+    .MPlayer_content{
+        margin-top: 110px;
+        color:#FFFFFF;
+        font-weight: 600;
+        width: 431px;
+        height: 110px;
+    }
+
+    .MPlayer_content h2{
+        width:450px;
+        height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .MPlayer_content p{
+        padding-top: 20px;
+    }
+
+    .MPlayer_content a{
+        display: block;
+        color:#040404CC;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    b{
+        font-weight: 800;
+    }
+
+    .macbook{
+        margin-left: 500px;
+        width:72.1%;
+        position: relative;
+        bottom:575px;
+    }
+
+    /* Футер сайта*/
+
+    footer{
+        background: linear-gradient( #D53005 2%,#000000 7%);
+        padding-top:120px;
+        padding-left: 110px;
+        padding-bottom: 22px;
+        color:#FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        height: 490px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .block_footer1{
+        width:180px;
+        height:148px;
+        margin-left: 452px;
+    }
+
+    .footer_block_title1{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24.38px;
+    }
+
+    .footer_block_list1{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+
+    .block_footer2{
+        width:192px;
+        height:148px;
+        margin-left: 327px;
+    }
+
+    .footer_block_title2{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24.38px;
+    }
+
+    .footer_block_list2{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+
+    .block_footer3{
+        width:256px;
+        height:148px;
+        margin-left: 343px;
+    }
+
+    .footer_block_title3{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24.38px;
+    }
+
+    .footer_block_list3{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    .logo3{
+        width:138px;
+        height:100px;
+    }
+
+    .line_1{
+        font-weight: 500;
+        font-size: 15px;
+        padding-right: 253px;
+    }
+
+    .line_2{
+        font-weight: 500;
+        font-size: 15px;
+        padding-right: 296px;
+    }
+
+    .line_3{
+        font-weight: 500;
+        font-size: 15px;
+        padding-right: 253px;
+    }
+
+    .line_4{
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/MP.svg">
+    <title>Music player</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Хедер сайт -->
+    <header>
+        <div class="header_menu">
+            <!-- Меню хедера -->
+            <i class="fa-solid fa-bars" id="bars"></i>
+            <div class="menu">
+                <i class="fa-solid fa-x" id="x"></i>
+                <div class="header_label1"><a href="#">HOME</a></div>
+                <div class="header_label2"><a href="#">MUSIC</a></div>
+                <div class="header_label3"><a href="#">ABOUT</a></div>
+                <div class="header_label4"><a href="#">STORE</a></div>
+            </div>
+            <!-- Логотип сайта -->
+            <img class="logo1" src="img/MP.svg" alt="logo">
+            <!-- Реклама в хедере самого сайта -->
+            <div class="header_ad">
+                <div class="logo_header">
+                <img src="img/MUSIC PLAYER.svg" alt="logo_full" class="logo2">
+                <div class="content_logo_full">American company formed in 2002 in Boston, Massachusetts</div>
+                </div>
+                <div class="full_smartphone">
+                    <img src="img/Flat iPhone 1.svg" alt="smartphone" class="smartphone">
+                    <img src="img/kabel_apple_mxly2zm_a_lightning_m_usb_a_m_1m_mfi_belyy_1346033_2 1.svg" alt="cabel_smartphone" class="cabel_smartphone">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Главная часть сайт -->
+    <main>
+        <!-- Раздел блока Music -->
+        <div class="music">
+            <span class="title_music">Music</span>
+            <div class="content_music">
+            <div class="blocks_text">
+                <div class="block_main">Listen now</div>
+                <div class="block_main">Find a song...</div>
+            </div>
+            <img src="img/seyi-ariyo-6YgYRcyQK_s-unsplash-PhotoRoom 1.svg" alt="Рука с вениловой пластинкой" class="vinyl_record">
+            </div>
+        </div>
+        <!-- Раздел блока About -->
+        <div class="about">
+            <span class="title_about">About</span>
+            <div class="content_about">MusicPlayer gives you instant access to millions of songs – from old favorites to the latest hits. Just hit play to stream anything you like.</div>
+        </div>
+        <!-- Раздел блока Store -->
+        <div class="store">
+            <span class="title_store">Store</span>
+            <div class="content_store">
+                <div class="left_side">
+                <button class="download_windows">
+                    Download Windows x64
+                </button>
+                <button class="download_macos">
+                    Download MacOS
+                </button>
+                <div class="MPlayer_content">
+                    <h2><b>Нужна предыдущая версия MPlayer?</b></h2>
+                    <p>
+                        Вы можете скачать одну из предыдущих версий MPlayer, которая совместима с нужной вам версией операционной системы и определёнными устройствами.
+                    </p>
+                    <a href="#" class="link_MPlayer">Выберите предыдущую версию MPlayer</a>
+                </div>
+                </div>
+                <img src="img/Device - Macbook Pro.svg" alt="display Macbook" class="macbook">
+            </div>
+        </div>
+    </main>
+    <!-- Футер сайт -->
+    <footer>
+        <div class="footer_contents">
+            <!-- Первый слой доп. информация в футоре -->
+            <div class="row">
+            <div class="block_footer1">
+                <h4 class="footer_block_title1">MPlayer Store</h4>
+                <ul class="footer_block_list1">
+                    <li><a href="#">Варианты оплаты</a></li>
+                    <li><a href="#">Состояние заказа</a></li>
+                    <li><a href="#">Помощь при покупке</a></li>
+                </ul>
+            </div>
+            <div class="block_footer2">
+                <h4 class="footer_block_title2">Ценнности MPlayer</h4>
+                <ul class="footer_block_list2">
+                    <li><a href="#">Универсальный доступ</a></li>
+                    <li><a href="#">Окружающая среда</a></li>
+                    <li><a href="#">Конфиденциальность</a></li>
+                </ul>
+            </div>
+            <div class="block_footer3">
+                <h4 class="footer_block_title3">Учетная запись</h4>
+                <ul class="footer_block_list3">
+                    <li><a href="#">Управление вашими данными ID</a></li>
+                    <li><a href="#">Учетная запись MPlayer Store</a></li>
+                </ul>
+            </div>
+            </div>
+            <!-- Второй слой юр. условия сайта в футоре -->
+            <img src="img/MUSIC PLAYER.svg" alt="logo_full" class="logo3">
+            <div class="row">
+                <p class="line_1">© MPlayer Inc., 2022 г. Все права защищены.</p>
+                <p class="line_2">Условия использования</p>
+                <p class="line_3">Продажа и возврат</p>
+                <p class="line_4">Юридическая информация</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
